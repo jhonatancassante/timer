@@ -1,78 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-    --primary-color: rgb(17, 86, 102);
-    --primary-color-darker: rgb(9, 48, 56);
-    --secondary-color: rgb(240, 247, 253);
+    --primary-color: #FFBB1C;
+    --primary-color-darker: #BC8401;
+    --secondary-color: #F2F4F5;
+    --text-color: #02314D;
+    --bg-color: #045C94;
 }
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     outline: 0;
+    border: 0;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background-color: var(--primary-color);
+    background-color: var(--bg-color);
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3em;
     line-height: 1.5em;
+    color: var(--text-color);
 }
 
 .container {
-    max-width: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 300px;
     margin: 50px auto;
     background-color: var(--secondary-color);
-    padding: 20px;
-    border-radius: 10px;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
 }
 
 .container p {
-    text-align: justify;
+    padding: 10px;
+    margin: 10px;
 }
 
-form input, form label, form button {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
-    border-radius: 10px;
-}
-
-form input {
-    font-size: 24px;
-    height: 50px;
-    padding: 0 20px;
-}
-
-form input:focus {
-    outline: 1px solid var(--primary-color);
-}
-
-form button {
+button {
+    width: auto;
+    height: auto;
+    margin: 20px 5px;
+    border-radius: 6px;
     border: none;
     background-color: var(--primary-color);
     color: var(--secondary-color);
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
-    height: 50px;
     cursor: pointer;
-    margin-top: 30px;
+    padding: 5px 10px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
 }
 
-form button:hover {
+.start, .pause {
+    display: none;
+}
+
+button.active {
+    display: inline;
+}
+
+button:hover {
     background-color: var(--primary-color-darker);
 }
 
 .timer {
     font-size: 3em;
-    ;
 }
 
 .timer-paused {
     color: red;
     -webkit-animation: blink-1 1.5s infinite both;
-    animation: blink-1 1.5s infinite both;
+    animation: blink-1 1s infinite both;
 }
 
 @-webkit-keyframes blink-1 {
