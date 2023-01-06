@@ -6,10 +6,6 @@ O mesmo foi feito utilizando apenas HTML, CSS e JavaScript como forma de aprimor
 
 Para visualizar a página clique [AQUI](https://jhonatancassante.github.io/timer/)
 
-## Créditos
-
- - [Font Awesome](https://fontawesome.com).
-
 ## Licença
 
 [![MIT License](https://img.shields.io/github/license/jhonatancassante/startse-desafio-01?style=plastic)](https://github.com/jhonatancassante/startse-desafio-01/blob/main/LICENSE.md)
