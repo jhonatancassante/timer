@@ -8,7 +8,7 @@ Para visualizar a página clique [AQUI](https://jhonatancassante.github.io/timer
 
 ## Licença
 
-[![MIT License](https://img.shields.io/github/license/jhonatancassante/startse-desafio-01?style=plastic)](https://github.com/jhonatancassante/startse-desafio-01/blob/main/LICENSE.md)
+[![MIT License](https://img.shields.io/github/license/jhonatancassante/startse-desafio-01?style=plastic)](https://github.com/jhonatancassante/timer/blob/main/LICENSE.md)
 
 ## Pré Visualização
 
